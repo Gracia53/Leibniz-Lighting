@@ -23,6 +23,13 @@ raw_materials:
     verbatim: "一个面向2046年的跨学科空间设计与文化战略 Agent。一座虚拟人类成长实验场。它从‘空间希望让人发生什么改变’出发，融合城市建筑、生活方式设计、文化品牌、教育、艺术、哲学与人的成长体验，最终目标不是生产一座形式新颖的建筑，而是创造一个能让人自然发生改变的文化教育场域。"
     permission_or_access_note: "核心段落逐字摘录；完整起始消息尚未作为独立原始文件导出，不能用后续摘要替代"
 
+  - id: "RAW-20260825-003"
+    date: "2026-08-25"
+    source_type: "founder_statement"
+    source: "work-orders/runs/WO-20260825-002/00_RAW_REQUEST.md"
+    verbatim: "当一个人在真实世界中接触艺术、自然、建筑、哲学、宗教、人与人的深度交流时，会产生一种AI无法替代的生命状态。仿佛是一种被唤醒的感觉，就像哲学家提到的知识即回忆一样。感受意义并生成意义成为人类的稀缺性。生命主体性的意义生成能力不会外包给AI，例如：感知力、默会知识（身体长期参与世界后形成的判断）、判断同质化的能力。也就是思辨能力、心魂震颤的能力。我认为人类正在进入认知外包过渡期，依靠搜素、AI给定的知识、算法推荐下的短视频、自动生成内容生成自己的认识论。这些工具让使用中变成塑造我思考的环境。我希望能改变人的存在方式，进入到一个场域，放下刚刚说到的那些工具，重新建立人和人的深度链接，并形成聚场效应。大家共同沉浸在保持生命主体性下的宁静和觉知。所以我认为，觉知会是最重要最重要的能力。"
+    permission_or_access_note: "G0-Q1创始人回答；逐字保存，包括原始用字"
+
   - id: "RAW-001"
     date: "YYYY-MM-DD"
     source_type: "founder_statement | interview | image | site_document | prior_proposal"
@@ -82,6 +89,36 @@ personas:
     evidence_status: "hypothesis | research_based | confirmed"
 
 glossary:
+  - term: "觉知"
+    working_definition: "对身体、情绪、思想、关系与环境保持清醒感受，同时保留自主判断与意义生成能力。"
+    exclusions: "不等于放松、情绪愉悦、神秘体验或拒绝一切技术。"
+    observable_signs: "能够注意自身与环境变化，暂停自动反应，表达亲身感受，辨别外部建议，并作出有理由的自主选择。"
+    status: "draft"
+
+  - term: "生命主体性"
+    working_definition: "人不把意义、判断和存在方向完全交给外部系统决定，并能以亲身经验参与世界。"
+    exclusions: "不等于孤立的个人主义，也不意味着排斥共同体或工具。"
+    observable_signs: "待G1建立人的改变模型后定义。"
+    status: "draft"
+
+  - term: "默会知识"
+    working_definition: "身体在长期实践和真实情境中形成、难以完全用语言或规则表达的判断。"
+    exclusions: "不把直觉自动视为正确，也不以神秘化语言免除验证。"
+    observable_signs: "能在具体实践中辨别细微差异、调整动作并说明经验来源。"
+    status: "draft"
+
+  - term: "聚场效应"
+    working_definition: "多人在共同注意、规则、实践与空间中相互影响，形成超出个体独处的体验强度。"
+    exclusions: "不等于从众、情绪感染、权威暗示或人数聚集本身。"
+    observable_signs: "待原型验证定义。"
+    status: "draft"
+
+  - term: "心魂震颤"
+    working_definition: "艺术、自然、思想、宗教经验或深度关系触发的强烈生命感受。"
+    exclusions: "不直接等于成长成果，也不作为医学或疗愈效果宣称。"
+    observable_signs: "只能由参与者自主描述，并结合后续行动与长期变化谨慎观察。"
+    status: "draft"
+
   - term: ""
     working_definition: ""
     exclusions: ""
@@ -239,7 +276,7 @@ open_questions:
     why_it_changes_direction: "决定项目回应的真实问题、人的改变方向及存在必要性。"
     decision_gate: "G0"
     owner: "founder"
-    status: "open"
+    status: "answered"
 
   - id: "G0-Q2"
     question: "第一阶段只优先服务哪一类具体的人；他们处于什么生命状态，同时明确谁不是第一阶段核心用户？"
