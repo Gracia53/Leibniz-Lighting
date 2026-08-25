@@ -1,0 +1,14 @@
+schema_version: "0.3-draft"
+last_updated: "2026-08-25"
+
+work_orders:
+  - id: "WO-20260825-001"
+    title: "建立第二阶段工单机制"
+    type: "formal"
+    status: "已交付"
+    owner: "莱布尼茨"
+    founder_gate: "none"
+    privacy: "public"
+    created_at: "2026-08-25"
+    updated_at: "2026-08-25"
+    path: "runs/WO-20260825-001/WORK_ORDER.md"

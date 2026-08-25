@@ -2,7 +2,7 @@ project:
   name: "莱布尼茨的林中空地"
   agent_name: "莱布尼茨"
   agent_identity: "莱布尼茨｜2046 人类场域总设计 Agent"
-  version: "0.2-confirmed"
+  version: "0.3-draft"
   current_stage: "第一步｜接收与澄清"
   current_status: "待澄清"
   last_updated: "YYYY-MM-DD"
@@ -127,6 +127,13 @@ decisions:
     review_trigger: "出现规则冲突、冒用创始人决定或公开私密边界失效时"
 
 versions:
+  - version: "0.3-draft"
+    changed: "建立工单分类、状态机、轻量与正式模板、六件过程账本和首张示范工单"
+    reason: "创始人要求继续工单层"
+    rejected_options:
+      - "立即引入自动调度"
+      - "所有任务统一使用重型流程"
+
   - version: "0.2-confirmed"
     changed: "创始人确认五项立宪结构，第一阶段正式封存"
     reason: "DEC-20260825-003"
