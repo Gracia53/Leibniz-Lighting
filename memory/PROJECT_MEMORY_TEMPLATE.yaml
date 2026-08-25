@@ -30,6 +30,27 @@ raw_materials:
     verbatim: "当一个人在真实世界中接触艺术、自然、建筑、哲学、宗教、人与人的深度交流时，会产生一种AI无法替代的生命状态。仿佛是一种被唤醒的感觉，就像哲学家提到的知识即回忆一样。感受意义并生成意义成为人类的稀缺性。生命主体性的意义生成能力不会外包给AI，例如：感知力、默会知识（身体长期参与世界后形成的判断）、判断同质化的能力。也就是思辨能力、心魂震颤的能力。我认为人类正在进入认知外包过渡期，依靠搜素、AI给定的知识、算法推荐下的短视频、自动生成内容生成自己的认识论。这些工具让使用中变成塑造我思考的环境。我希望能改变人的存在方式，进入到一个场域，放下刚刚说到的那些工具，重新建立人和人的深度链接，并形成聚场效应。大家共同沉浸在保持生命主体性下的宁静和觉知。所以我认为，觉知会是最重要最重要的能力。"
     permission_or_access_note: "G0-Q1创始人回答；逐字保存，包括原始用字"
 
+  - id: "RAW-20260825-004"
+    date: "2026-08-25"
+    source_type: "founder_statement"
+    source: "work-orders/runs/WO-20260825-002/00_RAW_REQUEST.md"
+    verbatim: "我希望是90后、00后的孩子。他现在正在外界生活被人工智能的各种新技术冲击刷新认知。同时在这个时代难以安定自己的心，希望寻求精神平静。且有深度思考和愿意与智者对话的年轻人。愿意一周时间投入在这里。对于不用工作的人来说 可以长期在这里。"
+    permission_or_access_note: "G0-Q2创始人回答；逐字保存，包括原始空格"
+
+  - id: "RAW-20260825-005"
+    date: "2026-08-25"
+    source_type: "founder_statement"
+    source: "work-orders/runs/WO-20260825-002/00_RAW_REQUEST.md"
+    verbatim: "也面向义务教育阶段的孩子。12-60岁。"
+    permission_or_access_note: "G0-Q2补充回答；逐字保存"
+
+  - id: "RAW-20260825-006"
+    date: "2026-08-25"
+    source_type: "founder_statement"
+    source: "work-orders/runs/WO-20260825-002/00_RAW_REQUEST.md"
+    verbatim: "第一阶段我要25-40岁"
+    permission_or_access_note: "G0-Q2第一阶段优先级确认；逐字保存"
+
   - id: "RAW-001"
     date: "YYYY-MM-DD"
     source_type: "founder_statement | interview | image | site_document | prior_proposal"
@@ -69,6 +90,22 @@ assumptions:
     due_or_trigger: "工单试运行3/3复盘"
     status: "unverified"
 
+  - id: "ASM-20260825-004"
+    statement: "一周沉浸是核心用户能够投入并足以观察初步变化的时间单位。"
+    reason_for_use: "创始人提出以一周作为核心投入时长。"
+    validation_method: "在用户研究中核查可投入时间，并通过七天原型观察停留、参与和变化迹象。"
+    owner: "莱布尼茨"
+    due_or_trigger: "用户研究与七天生活原型"
+    status: "unverified"
+
+  - id: "ASM-20260825-005"
+    statement: "具备长期离开常规工作安排条件的人愿意并适合形成长期驻留路径。"
+    reason_for_use: "创始人提出不用工作者可以长期停留。"
+    validation_method: "区分休假、间隔年、自由职业、远程工作、待业和经济独立者，核查需求、可达性与运营公平性。"
+    owner: "莱布尼茨"
+    due_or_trigger: "人物研究与运营设计"
+    status: "unverified"
+
   - id: "ASM-001"
     statement: ""
     reason_for_use: ""
@@ -78,6 +115,16 @@ assumptions:
     status: "unverified | supported | rejected"
 
 personas:
+  - id: "PERSONA-20260825-001"
+    current_life_state: "25—40岁的第一阶段核心参与者，被AI新技术持续冲击并刷新认知，难以安定内心。"
+    missing_or_longing_for: "精神平静、觉知、深度思考以及与智者和同伴的深度交流。"
+    fears: "尚未由创始人或用户材料确认。"
+    reason_for_coming: "希望暂时离开持续的技术与信息刺激，恢复生命主体性并建立深度连接。"
+    time_willing_to_invest: "核心为一周；没有常规工作约束者可能长期停留。"
+    reasons_to_leave: "尚未确认；可能包括经济成本、工作责任、权威氛围或体验过度抽象。"
+    desired_change: "从难以安定和认知被动刷新，转向精神平静、觉知和自主意义生成。"
+    evidence_status: "hypothesis"
+
   - id: "PERSONA-001"
     current_life_state: ""
     missing_or_longing_for: ""
@@ -117,6 +164,18 @@ glossary:
     working_definition: "艺术、自然、思想、宗教经验或深度关系触发的强烈生命感受。"
     exclusions: "不直接等于成长成果，也不作为医学或疗愈效果宣称。"
     observable_signs: "只能由参与者自主描述，并结合后续行动与长期变化谨慎观察。"
+    status: "draft"
+
+  - term: "精神平静"
+    working_definition: "人在持续刺激与认知冲击中恢复注意、内在秩序和不急于反应的状态。"
+    exclusions: "不等于压抑冲突、永久平静、医学疗效或服从权威。"
+    observable_signs: "待人的改变模型与原型验证定义。"
+    status: "draft"
+
+  - term: "智者"
+    working_definition: "具有长期实践、成熟判断并愿意与参与者平等对话的人。"
+    exclusions: "不因名望、年龄、流量或自我宣称自动获得权威。"
+    observable_signs: "选择、问责和权力边界待教育与伦理制度定义。"
     status: "draft"
 
   - term: ""
@@ -279,17 +338,31 @@ open_questions:
     status: "answered"
 
   - id: "G0-Q2"
-    question: "第一阶段只优先服务哪一类具体的人；他们处于什么生命状态，同时明确谁不是第一阶段核心用户？"
+    question: "在12—60岁的总服务范围内，第一阶段只优先验证哪一类具体的人，并明确谁不是第一阶段核心用户？"
     why_it_changes_direction: "决定研究对象、体验时长、空间条件、公共性与运营边界。"
     decision_gate: "G0"
     owner: "founder"
-    status: "open"
+    status: "answered"
+    answer_progress: "complete"
+    answer_source:
+      - "RAW-20260825-004"
+      - "RAW-20260825-005"
+      - "RAW-20260825-006"
+    answer_summary: "长期总服务范围为12—60岁；第一阶段核心用户为25—40岁，其他年龄不属于第一阶段核心验证对象。"
+    clarification_needed: []
 
   - id: "G0-Q3"
     question: "哪三项价值即使降低效率、传播性或商业回报也不可牺牲；同时哪些改变明确不由本项目负责？"
     why_it_changes_direction: "建立不可妥协项和责任边界，为后续冲突裁决提供依据。"
     decision_gate: "G0"
     owner: "founder"
+    status: "open"
+
+  - id: "OPS-Q1"
+    question: "长期停留者的‘不用工作’具体指哪些生活与职业状态，如何避免形成隐性经济门槛？"
+    why_it_changes_direction: "影响长期驻留制度、收费、公平性与运营模型，但不阻挡G0-Q2完成。"
+    decision_gate: "none"
+    owner: "founder | 莱布尼茨"
     status: "open"
 
   - id: "Q-001"
