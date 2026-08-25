@@ -2,7 +2,7 @@ project:
   name: "莱布尼茨的林中空地"
   agent_name: "莱布尼茨"
   agent_identity: "莱布尼茨｜2046 人类场域总设计 Agent"
-  version: "0.2-draft"
+  version: "0.2-confirmed"
   current_stage: "第一步｜接收与澄清"
   current_status: "待澄清"
   last_updated: "YYYY-MM-DD"
@@ -100,7 +100,38 @@ decisions:
       - "制度文档可能过早变得复杂"
     review_trigger: "轻量结构无法支持真实协作，或原型验证表明确需独立长期角色时"
 
+  - id: "DEC-20260825-003"
+    status: "confirmed"
+    founder_verbatim: "五项全部确认。"
+    channel: "Codex对话"
+    context: "确认立宪审阅单C1至C5五项治理结构"
+    decision: "确认唯一宪法源、创始人裁决出处、轻量身份结构、公民与执行服务分离、公开与私密边界。"
+    rationale: "创始人完成五项立宪审阅。"
+    alternatives_abandoned: []
+    decided_by: "founder"
+    decided_at: "2026-08-25"
+    scope:
+      - "宪法版本"
+      - "身份登记"
+      - "裁决出处协议"
+      - "修宪日志"
+      - "实施路线"
+    exclusions:
+      - "不代表G0已通过"
+      - "不确认核心服务人群"
+      - "不确认人的成长目标"
+      - "不确认不可妥协价值"
+    recorded_by: "莱布尼茨"
+    risks:
+      - "治理条款可能在实际工单中暴露新的冲突"
+    review_trigger: "出现规则冲突、冒用创始人决定或公开私密边界失效时"
+
 versions:
+  - version: "0.2-confirmed"
+    changed: "创始人确认五项立宪结构，第一阶段正式封存"
+    reason: "DEC-20260825-003"
+    rejected_options: []
+
   - version: "0.2-draft"
     changed: "建立唯一宪法源、身份登记、裁决出处协议、修宪记录和五阶段路线"
     reason: "创始人确认借鉴五套治理机制"

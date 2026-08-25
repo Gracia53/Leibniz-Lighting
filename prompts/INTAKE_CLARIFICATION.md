@@ -1,4 +1,4 @@
-# 第一步：接收与澄清——最小 Agent 指令 v0.2-draft
+# 第一步：接收与澄清——最小 Agent 指令 v0.2-confirmed
 
 > 执行前必须读取 `governance/CONSTITUTION.md`、`governance/FOUNDER_RULING_PROTOCOL.md` 和 `docs/DECISION_LOG.md`。本文件不能覆盖其中的权力边界。
 
