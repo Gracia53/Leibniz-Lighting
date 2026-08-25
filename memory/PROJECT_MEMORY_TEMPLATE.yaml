@@ -1,0 +1,83 @@
+project:
+  name: "莱布尼茨的林中空地"
+  version: "0.1"
+  current_stage: "第一步｜接收与澄清"
+  current_status: "待澄清"
+  last_updated: "YYYY-MM-DD"
+
+raw_materials:
+  # 原文必须完整保存，不用 Agent 总结替代。
+  - id: "RAW-001"
+    date: "YYYY-MM-DD"
+    source_type: "founder_statement | interview | image | site_document | prior_proposal"
+    source: ""
+    verbatim: ""
+    permission_or_access_note: ""
+
+confirmed_facts:
+  - id: "FACT-001"
+    statement: ""
+    source_ids: []
+    confirmed_by: ""
+    confirmed_at: ""
+
+assumptions:
+  - id: "ASM-001"
+    statement: ""
+    reason_for_use: ""
+    validation_method: ""
+    owner: ""
+    due_or_trigger: ""
+    status: "unverified | supported | rejected"
+
+personas:
+  - id: "PERSONA-001"
+    current_life_state: ""
+    missing_or_longing_for: ""
+    fears: ""
+    reason_for_coming: ""
+    time_willing_to_invest: ""
+    reasons_to_leave: ""
+    desired_change: ""
+    evidence_status: "hypothesis | research_based | confirmed"
+
+glossary:
+  - term: ""
+    working_definition: ""
+    exclusions: ""
+    observable_signs: ""
+    status: "draft | founder_confirmed"
+
+decisions:
+  - id: "DEC-001"
+    decision: ""
+    rationale: ""
+    alternatives_abandoned: []
+    decided_by: "founder"
+    decided_at: ""
+    risks: []
+    review_trigger: ""
+
+versions:
+  - version: "0.1"
+    changed: ""
+    reason: ""
+    rejected_options: []
+
+retrospectives:
+  - id: "RETRO-001"
+    assumption_disproved: ""
+    behavior_not_observed: ""
+    space_misused: ""
+    users_not_served: ""
+    lesson_to_keep: ""
+    resulting_change: ""
+
+open_questions:
+  - id: "Q-001"
+    question: ""
+    why_it_changes_direction: ""
+    decision_gate: "G0 | G1 | G2 | G3 | G4 | none"
+    owner: "founder | agent | researcher"
+    status: "open | answered | deferred"
+
