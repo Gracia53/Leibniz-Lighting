@@ -51,6 +51,20 @@ raw_materials:
     verbatim: "第一阶段我要25-40岁"
     permission_or_access_note: "G0-Q2第一阶段优先级确认；逐字保存"
 
+  - id: "RAW-20260825-007"
+    date: "2026-08-25"
+    source_type: "founder_statement"
+    source: "work-orders/runs/WO-20260825-002/00_RAW_REQUEST.md"
+    verbatim: "即使让项目更慢、更贵、更难传播或降低商业回报，也绝不牺牲：1. 真实体验优与内容消费 2. 深度关系链接优与规模效率 3. 生命主体性下的独立思考提问能力内在判断对生命意义的探索4. 不被催促的时间，不为了快速传播快速变现牺牲沉浸练习慢慢成熟内在变化。本项目明确不负责：1. 不允许任何未经透明审查、以控制意识、操纵关系或获取不当影响力为目的的组织进入。2. 拒绝暴力操控权利压迫情绪PUA羞辱 3. 拒绝持续破坏他人成长环境、拒绝基本规则、消耗共同信任的人进入。"
+    permission_or_access_note: "G0-Q3创始人回答；逐字保留用字与编号相连形式"
+
+  - id: "RAW-20260825-008"
+    date: "2026-08-25"
+    source_type: "founder_statement"
+    source: "work-orders/runs/WO-20260825-002/00_RAW_REQUEST.md"
+    verbatim: "这两点很好：项目不承担医疗治疗、心理矫正、执法或司法裁决责任；1. 不承诺一次体验或一周驻留必然改变一个人。"
+    permission_or_access_note: "G0-Q3责任边界补充确认；逐字保存，不等于G0整体通过"
+
   - id: "RAW-001"
     date: "YYYY-MM-DD"
     source_type: "founder_statement | interview | image | site_document | prior_proposal"
@@ -176,6 +190,30 @@ glossary:
     working_definition: "具有长期实践、成熟判断并愿意与参与者平等对话的人。"
     exclusions: "不因名望、年龄、流量或自我宣称自动获得权威。"
     observable_signs: "选择、问责和权力边界待教育与伦理制度定义。"
+    status: "draft"
+
+  - term: "真实体验"
+    working_definition: "人通过身体、材料、空间、自然、关系和时间亲自参与世界，而非只接收关于世界的内容。"
+    exclusions: "不把强烈感受自动视为真实，也不排斥必要的知识内容。"
+    observable_signs: "参与者实际行动、制作、感受、对话并承担过程结果；待原型验证细化。"
+    status: "draft"
+
+  - term: "深度关系连接"
+    working_definition: "在持续时间、相互责任、平等对话、边界尊重和自由退出中形成的关系。"
+    exclusions: "不等于亲密强迫、情绪依附、权威服从或封闭小团体。"
+    observable_signs: "待关系机制与伦理规则定义。"
+    status: "draft"
+
+  - term: "不被催促的时间"
+    working_definition: "活动节奏服从练习、理解、关系和内在变化成熟所需时间，而非传播或变现速度。"
+    exclusions: "不等于无限拖延、缺少计划、拒绝验收或免于复盘。"
+    observable_signs: "课程与驻留允许重复练习、空白时间和延迟表达，同时保留阶段检查。"
+    status: "draft"
+
+  - term: "透明审查"
+    working_definition: "准入与处置规则、证据、责任者、判断过程和申诉路径可以被相关方理解与检查。"
+    exclusions: "不以内部决定、个人好恶、身份标签或道德指控代替程序。"
+    observable_signs: "规则公开、理由记录、利益冲突披露、比例适当的处置和申诉记录。"
     status: "draft"
 
   - term: ""
@@ -356,6 +394,18 @@ open_questions:
     why_it_changes_direction: "建立不可妥协项和责任边界，为后续冲突裁决提供依据。"
     decision_gate: "G0"
     owner: "founder"
+    status: "answered"
+    answer_progress: "complete"
+    answer_source:
+      - "RAW-20260825-007"
+      - "RAW-20260825-008"
+    answer_summary: "确认四项不可牺牲价值、三类拒绝边界，以及不承担医疗治疗、心理矫正、执法、司法裁决和必然改变承诺的最小责任边界；等待G0整体裁决。"
+
+  - id: "ETHICS-Q1"
+    question: "如何把意识控制、关系操纵、权力压迫和持续破坏共同信任转化为可观察行为、证据标准、比例处置与申诉程序？"
+    why_it_changes_direction: "避免伦理边界反过来成为任意排斥、压制异议或权力滥用的工具。"
+    decision_gate: "none"
+    owner: "莱布尼茨 | 独立审查者"
     status: "open"
 
   - id: "OPS-Q1"
