@@ -4,11 +4,25 @@ project:
   agent_identity: "莱布尼茨｜2046 人类场域总设计 Agent"
   version: "0.3-pilot"
   current_stage: "第一步｜接收与澄清"
-  current_status: "待澄清"
-  last_updated: "YYYY-MM-DD"
+  current_status: "待决策"
+  last_updated: "2026-08-25"
 
 raw_materials:
   # 原文必须完整保存，不用 Agent 总结替代。
+  - id: "RAW-20260825-001"
+    date: "2026-08-25"
+    source_type: "founder_statement"
+    source: "work-orders/runs/WO-20260825-002/00_RAW_REQUEST.md"
+    verbatim: "建立第一张真实试运行工单"
+    permission_or_access_note: "用于创始人明确要求建立的公开GitHub项目；不包含私人材料"
+
+  - id: "RAW-20260825-002"
+    date: "2026-08-25"
+    source_type: "founder_statement"
+    source: "Codex对话中的项目起始愿景；公开摘录见WO-20260825-002的00账本"
+    verbatim: "一个面向2046年的跨学科空间设计与文化战略 Agent。一座虚拟人类成长实验场。它从‘空间希望让人发生什么改变’出发，融合城市建筑、生活方式设计、文化品牌、教育、艺术、哲学与人的成长体验，最终目标不是生产一座形式新颖的建筑，而是创造一个能让人自然发生改变的文化教育场域。"
+    permission_or_access_note: "核心段落逐字摘录；完整起始消息尚未作为独立原始文件导出，不能用后续摘要替代"
+
   - id: "RAW-001"
     date: "YYYY-MM-DD"
     source_type: "founder_statement | interview | image | site_document | prior_proposal"
@@ -24,6 +38,30 @@ confirmed_facts:
     confirmed_at: ""
 
 assumptions:
+  - id: "ASM-20260825-001"
+    statement: "面向2046年，存在需要由本项目回应且不能仅靠数字产品解决的人类成长问题。"
+    reason_for_use: "这是项目成立与进入G0的前提。"
+    validation_method: "创始人先明确具体问题与人群；第二阶段研究再核查时代证据和用户证据。"
+    owner: "founder | 莱布尼茨"
+    due_or_trigger: "G0与后续时代、用户研究"
+    status: "unverified"
+
+  - id: "ASM-20260825-002"
+    statement: "真实空间、长期行为和人与人的关系可以共同促进可观察的人格或能力变化。"
+    reason_for_use: "这是项目区别于内容平台和普通文化空间的核心因果假设。"
+    validation_method: "建立人的改变模型，并通过低成本行为原型观察。"
+    owner: "莱布尼茨"
+    due_or_trigger: "G1与第七步原型验证"
+    status: "unverified"
+
+  - id: "ASM-20260825-003"
+    statement: "一个莱布尼茨加七种视角足以支持当前阶段的跨专业判断。"
+    reason_for_use: "该结构已获治理确认，但实际工作效果仍需试运行证明。"
+    validation_method: "完成三张真实工单，检查遗漏、重复、负担和审查独立性。"
+    owner: "莱布尼茨"
+    due_or_trigger: "工单试运行3/3复盘"
+    status: "unverified"
+
   - id: "ASM-001"
     statement: ""
     reason_for_use: ""
@@ -196,6 +234,27 @@ retrospectives:
     resulting_change: ""
 
 open_questions:
+  - id: "G0-Q1"
+    question: "面对2046年，项目首先要保护或培养哪一种不能轻易外包给AI的人类能力；人目前处于什么状态，为什么这种改变必须在真实空间中发生？"
+    why_it_changes_direction: "决定项目回应的真实问题、人的改变方向及存在必要性。"
+    decision_gate: "G0"
+    owner: "founder"
+    status: "open"
+
+  - id: "G0-Q2"
+    question: "第一阶段只优先服务哪一类具体的人；他们处于什么生命状态，同时明确谁不是第一阶段核心用户？"
+    why_it_changes_direction: "决定研究对象、体验时长、空间条件、公共性与运营边界。"
+    decision_gate: "G0"
+    owner: "founder"
+    status: "open"
+
+  - id: "G0-Q3"
+    question: "哪三项价值即使降低效率、传播性或商业回报也不可牺牲；同时哪些改变明确不由本项目负责？"
+    why_it_changes_direction: "建立不可妥协项和责任边界，为后续冲突裁决提供依据。"
+    decision_gate: "G0"
+    owner: "founder"
+    status: "open"
+
   - id: "Q-001"
     question: ""
     why_it_changes_direction: ""
