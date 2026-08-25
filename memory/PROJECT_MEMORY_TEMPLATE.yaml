@@ -2,7 +2,7 @@ project:
   name: "莱布尼茨的林中空地"
   agent_name: "莱布尼茨"
   agent_identity: "莱布尼茨｜2046 人类场域总设计 Agent"
-  version: "0.3-draft"
+  version: "0.3-pilot"
   current_stage: "第一步｜接收与澄清"
   current_status: "待澄清"
   last_updated: "YYYY-MM-DD"
@@ -126,7 +126,43 @@ decisions:
       - "治理条款可能在实际工单中暴露新的冲突"
     review_trigger: "出现规则冲突、冒用创始人决定或公开私密边界失效时"
 
+  - id: "DEC-20260825-004"
+    status: "confirmed"
+    founder_verbatim: "工单五项全部确认。"
+    channel: "Codex对话"
+    context: "确认工单审阅单T1至T5五项治理机制"
+    decision: "确认轻量任务升级、九状态禁跳步、六件过程账本、交付与批准分离、三张真实任务人工试运行；工单层进入0.3-pilot。"
+    rationale: "创始人完成五项工单层审阅。"
+    alternatives_abandoned:
+      - "草案未经真实任务验证直接定版"
+      - "立即启用自动调度、提醒或数据库"
+    decided_by: "founder"
+    decided_at: "2026-08-25"
+    scope:
+      - "工单制度"
+      - "状态机"
+      - "正式与轻量模板"
+      - "公开工单索引"
+      - "三张真实任务试运行"
+    exclusions:
+      - "不代表G0已通过"
+      - "不授权自动调度、提醒或数据库"
+      - "不授权新增独立Agent"
+      - "不代表未来工单成果自动获得采用"
+    recorded_by: "莱布尼茨"
+    risks:
+      - "六件账本可能对部分真实任务过重"
+      - "制度状态可能被误读为项目价值批准"
+    review_trigger: "完成三张真实工单，或试运行出现重大治理缺口时"
+
 versions:
+  - version: "0.3-pilot"
+    changed: "创始人确认工单五项，启动三张真实任务人工试运行"
+    reason: "DEC-20260825-004"
+    rejected_options:
+      - "未经试运行直接定版"
+      - "立即启用自动化或新增独立Agent"
+
   - version: "0.3-draft"
     changed: "建立工单分类、状态机、轻量与正式模板、六件过程账本和首张示范工单"
     reason: "创始人要求继续工单层"

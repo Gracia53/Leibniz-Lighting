@@ -1,5 +1,12 @@
-schema_version: "0.3-draft"
+schema_version: "0.3-pilot"
 last_updated: "2026-08-25"
+
+pilot:
+  status: "in_progress"
+  target_real_work_orders: 3
+  completed_real_work_orders: 0
+  basis: "DEC-20260825-004"
+  automation_enabled: false
 
 work_orders:
   - id: "WO-20260825-001"
