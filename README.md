@@ -10,9 +10,9 @@
 
 ## 当前版本
 
-- 版本：`v0.1.1`
-- 状态：`待创始人确认（G0）`
-- 当前范围：只实现“第一步：接收与澄清”
+- 版本：`v0.2-draft`
+- 状态：`立宪层待创始人审阅；G0待确认`
+- 当前范围：完成治理第一阶段，同时保留“第一步：接收与澄清”的最小能力
 - 暂不包含：七个独立 Agent、数据库、网站、自动研究和正式建筑方案
 
 ## 三个设计维度
@@ -21,19 +21,21 @@
 2. **Cultural Branding**：哪些价值、行为和仪式会形成长期文化。
 3. **Human Experience Design**：人在其中如何感受、行动、连接、创造并发生改变。
 
-## v0.1 如何使用
+## 当前如何使用
 
-1. 阅读 [`docs/PROJECT_CHARTER_v0.1.md`](docs/PROJECT_CHARTER_v0.1.md)，由创始人确认或修改项目边界。
-2. 将 [`prompts/ORCHESTRATOR.md`](prompts/ORCHESTRATOR.md) 作为总设计 Agent 的长期指令。
-3. 将 [`prompts/INTAKE_CLARIFICATION.md`](prompts/INTAKE_CLARIFICATION.md) 作为第一次对话任务。
-4. 输入一段未经整理的创始人愿景。
-5. 使用 [`evals/ACCEPTANCE_CHECKLIST.md`](evals/ACCEPTANCE_CHECKLIST.md) 检查输出是否合格。
-6. 通过 G0 前，不进入研究、体验或空间方案设计。
+1. 先阅读 [`governance/CONSTITUTION.md`](governance/CONSTITUTION.md)。这是唯一宪法规则源。
+2. 使用 [`governance/FOUNDER_REVIEW_v0.2.md`](governance/FOUNDER_REVIEW_v0.2.md) 完成立宪结构审阅。
+3. 通过 [`governance/IMPLEMENTATION_ROADMAP.md`](governance/IMPLEMENTATION_ROADMAP.md) 查看五套机制的分步计划。
+4. 将 [`prompts/ORCHESTRATOR.md`](prompts/ORCHESTRATOR.md) 作为莱布尼茨的长期指令。
+5. 将 [`prompts/INTAKE_CLARIFICATION.md`](prompts/INTAKE_CLARIFICATION.md) 作为第一次对话任务。
+6. 输入一段未经整理的创始人愿景，并用 [`evals/ACCEPTANCE_CHECKLIST.md`](evals/ACCEPTANCE_CHECKLIST.md) 验收。
+7. 通过 G0 前，不进入研究、体验或空间方案设计。
 
 ## 项目结构
 
 ```text
-docs/       项目宪章、角色与治理规则
+governance/ 唯一宪法源、身份、裁决出处与修宪记录
+docs/       历史草案、解释文件与创始人决策记录
 prompts/    总设计 Agent 与具体工作步骤的指令
 memory/     八类共享项目记忆的统一结构
 evals/      测试案例与验收清单
@@ -41,12 +43,14 @@ evals/      测试案例与验收清单
 
 ## 核心治理原则
 
-- 创始人决定项目相信什么，以及不做什么。
-- Agent 可以研究、推理、质疑和建议，但不能替创始人作出价值裁决。
-- 未确认的信息必须标记为假设，不能写成事实。
-- 七种专业视角用于交叉判断，不得拼接为七份互相割裂的回答。
-- 重大结论必须保存依据、异议、风险和重新评估条件。
-- 项目记忆同时保存成功、失败和被淘汰方案。
+详细规则只在《宪法》中修改。摘要如下：
+
+- 创始人拥有价值和方向的最终裁决权。
+- 莱布尼茨负责组织、整合和记录，不替创始人决定。
+- 七种专业角色是思考视角，不是七个独立Agent。
+- 系统逐步采用立宪、工单、公共记忆、独立审查和作品证明五套机制。
+- 创始人裁决必须保留原话、日期、渠道、范围和排除项。
+- 公共GitHub与私人项目材料严格分开。
 
 ## 开放协作
 

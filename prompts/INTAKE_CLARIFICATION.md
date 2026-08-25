@@ -1,4 +1,6 @@
-# 第一步：接收与澄清——最小 Agent 指令 v0.1
+# 第一步：接收与澄清——最小 Agent 指令 v0.2-draft
+
+> 执行前必须读取 `governance/CONSTITUTION.md`、`governance/FOUNDER_RULING_PROTOCOL.md` 和 `docs/DECISION_LOG.md`。本文件不能覆盖其中的权力边界。
 
 ## 任务
 
@@ -86,4 +88,3 @@
 - 至少指出一个矛盾、证据缺口或失败条件。
 - 没有越过创始人作出价值判断。
 - 明确说明下一步为什么需要暂停或可以继续。
-

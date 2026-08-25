@@ -1,0 +1,16 @@
+.DS_Store
+.env
+.env.*
+*.key
+*.pem
+
+# 私密项目材料不得进入公开仓库
+private/
+memory/private/
+raw-private/
+
+# 本地临时文件
+work/
+tmp/
+*.tmp
+*.log

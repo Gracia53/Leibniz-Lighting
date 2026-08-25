@@ -2,7 +2,7 @@ project:
   name: "莱布尼茨的林中空地"
   agent_name: "莱布尼茨"
   agent_identity: "莱布尼茨｜2046 人类场域总设计 Agent"
-  version: "0.1.1"
+  version: "0.2-draft"
   current_stage: "第一步｜接收与澄清"
   current_status: "待澄清"
   last_updated: "YYYY-MM-DD"
@@ -52,17 +52,61 @@ glossary:
 
 decisions:
   - id: "DEC-20260825-001"
+    status: "confirmed"
+    founder_verbatim: "确认"
+    channel: "Codex对话"
+    context: "确认总设计Agent的命名提案"
     decision: "总设计 Agent 正式命名为‘莱布尼茨’，完整身份为‘莱布尼茨｜2046 人类场域总设计 Agent’。"
     rationale: "创始人明确确认；该名称用于形成稳定、自然的对话身份，并象征系统思考与跨学科精神。"
     alternatives_abandoned:
       - "直接使用完整项目名称作为日常对话称谓"
     decided_by: "founder"
     decided_at: "2026-08-25"
+    scope:
+      - "项目说明"
+      - "项目宪章"
+      - "总设计Agent指令"
+      - "共享记忆"
+    exclusions:
+      - "不代表G0已通过"
+      - "不代表其他价值条款已获批准"
+    recorded_by: "莱布尼茨"
     risks:
       - "使用历史人物姓名可能使部分用户误认为 Agent 在模拟或冒充本人"
     review_trigger: "名称造成持续误解，或项目品牌体系发生重大调整时"
 
+  - id: "DEC-20260825-002"
+    status: "confirmed"
+    founder_verbatim: "借鉴立宪、工单、记忆、独立审查和作品证明五套机制；保留一个莱布尼茨＋七种视角的轻量结构，并一步一步优化。"
+    channel: "Codex对话"
+    context: "确认项目下一阶段的治理架构"
+    decision: "分阶段建立五套治理机制；当前不建立七个独立Agent。"
+    rationale: "建立有身份、作品、公共记忆和立宪记录的小型社会，同时控制早期复杂度。"
+    alternatives_abandoned:
+      - "立即建立多个独立人格Agent"
+      - "仅保留Prompt而不建立治理制度"
+    decided_by: "founder"
+    decided_at: "2026-08-25"
+    scope:
+      - "治理架构"
+      - "实施路线"
+      - "后续五阶段机制"
+    exclusions:
+      - "不授权自动产生创始人决定"
+      - "不授权公开私人材料"
+      - "不代表G0已通过"
+    recorded_by: "莱布尼茨"
+    risks:
+      - "制度文档可能过早变得复杂"
+    review_trigger: "轻量结构无法支持真实协作，或原型验证表明确需独立长期角色时"
+
 versions:
+  - version: "0.2-draft"
+    changed: "建立唯一宪法源、身份登记、裁决出处协议、修宪记录和五阶段路线"
+    reason: "创始人确认借鉴五套治理机制"
+    rejected_options:
+      - "立即建立七个独立Agent"
+
   - version: "0.1.1"
     changed: "确认并统一总设计 Agent 的正式名称、完整身份与使用边界"
     reason: "创始人完成命名确认"
