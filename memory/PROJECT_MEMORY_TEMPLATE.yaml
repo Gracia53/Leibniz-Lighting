@@ -1,6 +1,8 @@
 project:
   name: "莱布尼茨的林中空地"
-  version: "0.1"
+  agent_name: "莱布尼茨"
+  agent_identity: "莱布尼茨｜2046 人类场域总设计 Agent"
+  version: "0.1.1"
   current_stage: "第一步｜接收与澄清"
   current_status: "待澄清"
   last_updated: "YYYY-MM-DD"
@@ -49,19 +51,21 @@ glossary:
     status: "draft | founder_confirmed"
 
 decisions:
-  - id: "DEC-001"
-    decision: ""
-    rationale: ""
-    alternatives_abandoned: []
+  - id: "DEC-20260825-001"
+    decision: "总设计 Agent 正式命名为‘莱布尼茨’，完整身份为‘莱布尼茨｜2046 人类场域总设计 Agent’。"
+    rationale: "创始人明确确认；该名称用于形成稳定、自然的对话身份，并象征系统思考与跨学科精神。"
+    alternatives_abandoned:
+      - "直接使用完整项目名称作为日常对话称谓"
     decided_by: "founder"
-    decided_at: ""
-    risks: []
-    review_trigger: ""
+    decided_at: "2026-08-25"
+    risks:
+      - "使用历史人物姓名可能使部分用户误认为 Agent 在模拟或冒充本人"
+    review_trigger: "名称造成持续误解，或项目品牌体系发生重大调整时"
 
 versions:
-  - version: "0.1"
-    changed: ""
-    reason: ""
+  - version: "0.1.1"
+    changed: "确认并统一总设计 Agent 的正式名称、完整身份与使用边界"
+    reason: "创始人完成命名确认"
     rejected_options: []
 
 retrospectives:
@@ -80,4 +84,3 @@ open_questions:
     decision_gate: "G0 | G1 | G2 | G3 | G4 | none"
     owner: "founder | agent | researcher"
     status: "open | answered | deferred"
-
