@@ -11,8 +11,8 @@
 ## 当前版本
 
 - 版本：`v0.3-pilot`
-- 状态：`立宪层已确认；工单层进入三张真实任务试运行；G0待确认`
-- 当前范围：第二阶段工单制度、状态机、六件账本与三张真实任务试运行
+- 状态：`G0已通过；工单层三张真实任务试运行完成1/3；准备进入第二步研究`
+- 当前范围：第二步时代、第一阶段用户与场地条件研究任务书
 - 暂不包含：七个独立 Agent、数据库、网站、自动研究和正式建筑方案
 
 ## 三个设计维度
@@ -27,9 +27,9 @@
 2. 使用 [`governance/FOUNDER_REVIEW_v0.2.md`](governance/FOUNDER_REVIEW_v0.2.md) 完成立宪结构审阅。
 3. 通过 [`governance/IMPLEMENTATION_ROADMAP.md`](governance/IMPLEMENTATION_ROADMAP.md) 查看五套机制的分步计划。
 4. 将 [`prompts/ORCHESTRATOR.md`](prompts/ORCHESTRATOR.md) 作为莱布尼茨的长期指令。
-5. 将 [`prompts/INTAKE_CLARIFICATION.md`](prompts/INTAKE_CLARIFICATION.md) 作为第一次对话任务。
-6. 输入一段未经整理的创始人愿景，并用 [`evals/ACCEPTANCE_CHECKLIST.md`](evals/ACCEPTANCE_CHECKLIST.md) 验收。
-7. 通过 G0 前，不进入研究、体验或空间方案设计。
+5. 第一阶段澄清工作与G0决定见 `WO-20260825-002`。
+6. 下一步建立第二步研究任务书；研究结论仍须区分事实、假设与价值。
+7. G1通过前，不进入体验机制或空间方案设计。
 
 ## 项目结构
 
@@ -45,8 +45,8 @@ work-orders/工单制度、状态机、模板、索引与公开工单
 ## 当前工单
 
 - `WO-20260825-002｜整理原始愿景与G0问题澄清单`
-- 状态：待决策；三个G0问题已回答，等待创始人最终确认G0
-- 试运行进度：已启动 `1` 张，已完成 `0/3`
+- 状态：已交付；G0已通过
+- 试运行进度：已完成 `1/3`
 - 上一张制度工单：`WO-20260825-001｜建立第二阶段工单机制`（已交付）
 
 ## 核心治理原则

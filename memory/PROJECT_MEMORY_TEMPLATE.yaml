@@ -3,9 +3,23 @@ project:
   agent_name: "莱布尼茨"
   agent_identity: "莱布尼茨｜2046 人类场域总设计 Agent"
   version: "0.3-pilot"
-  current_stage: "第一步｜接收与澄清"
-  current_status: "待决策"
+  current_stage: "第二步｜时代、用户与场地研究"
+  current_status: "已确认"
   last_updated: "2026-08-25"
+
+gates:
+  G0:
+    status: "passed"
+    decision_id: "DEC-20260825-005"
+    confirmed_at: "2026-08-25"
+  G1:
+    status: "pending"
+  G2:
+    status: "pending"
+  G3:
+    status: "pending"
+  G4:
+    status: "pending"
 
 raw_materials:
   # 原文必须完整保存，不用 Agent 总结替代。
@@ -65,6 +79,13 @@ raw_materials:
     verbatim: "这两点很好：项目不承担医疗治疗、心理矫正、执法或司法裁决责任；1. 不承诺一次体验或一周驻留必然改变一个人。"
     permission_or_access_note: "G0-Q3责任边界补充确认；逐字保存，不等于G0整体通过"
 
+  - id: "RAW-20260825-009"
+    date: "2026-08-25"
+    source_type: "founder_statement"
+    source: "work-orders/runs/WO-20260825-002/G0_CONFIRMATION.md"
+    verbatim: "确认G0通过"
+    permission_or_access_note: "G0最终裁决；允许公开记录"
+
   - id: "RAW-001"
     date: "YYYY-MM-DD"
     source_type: "founder_statement | interview | image | site_document | prior_proposal"
@@ -73,6 +94,23 @@ raw_materials:
     permission_or_access_note: ""
 
 confirmed_facts:
+  - id: "FACT-20260825-001"
+    statement: "创始人已确认G0通过，项目获准进入第二步时代、用户与场地研究。"
+    source_ids:
+      - "RAW-20260825-009"
+      - "DEC-20260825-005"
+    confirmed_by: "founder"
+    confirmed_at: "2026-08-25"
+
+  - id: "FACT-20260825-002"
+    statement: "长期总服务范围为12—60岁，第一阶段核心用户为25—40岁。"
+    source_ids:
+      - "RAW-20260825-005"
+      - "RAW-20260825-006"
+      - "DEC-20260825-005"
+    confirmed_by: "founder"
+    confirmed_at: "2026-08-25"
+
   - id: "FACT-001"
     statement: ""
     source_ids: []
@@ -327,6 +365,38 @@ decisions:
       - "制度状态可能被误读为项目价值批准"
     review_trigger: "完成三张真实工单，或试运行出现重大治理缺口时"
 
+  - id: "DEC-20260825-005"
+    status: "confirmed"
+    founder_verbatim: "确认G0通过"
+    channel: "Codex对话"
+    context: "对WO-20260825-002的G0确认单作出最终裁决"
+    decision: "G0通过；确认真实问题、觉知与生命主体性、第一阶段25—40岁核心用户、四项不可牺牲价值、三类拒绝边界和两项最小责任边界；允许进入第二步研究。"
+    rationale: "创始人完成G0三问、责任边界补充确认和整份确认单最终裁决。"
+    alternatives_abandoned:
+      - "继续停留在第一步澄清"
+      - "在G0未通过时直接进入空间方案"
+    decided_by: "founder"
+    decided_at: "2026-08-25"
+    scope:
+      - "项目真实问题"
+      - "首要核心能力"
+      - "第一阶段核心用户"
+      - "不可牺牲价值"
+      - "伦理与责任边界"
+      - "进入第二步研究"
+    exclusions:
+      - "不代表G1已通过"
+      - "不确认最终人的成长模型"
+      - "不授权体验机制或空间方案设计"
+      - "不授权建设或商业承诺"
+      - "不允许把待验证命题宣称为事实"
+    recorded_by: "莱布尼茨"
+    risks:
+      - "觉知仍可能停留在抽象概念"
+      - "一周体验与真实空间必要性尚无证据"
+      - "深度关系和排除规则可能产生权力风险"
+    review_trigger: "研究否定核心问题、用户需求或真实空间相对必要性，或伦理边界无法形成可执行程序时"
+
 versions:
   - version: "0.3-pilot"
     changed: "创始人确认工单五项，启动三张真实任务人工试运行"
@@ -359,6 +429,14 @@ versions:
     rejected_options: []
 
 retrospectives:
+  - id: "RETRO-WO-20260825-002"
+    assumption_disproved: "12—60岁可以直接作为第一阶段核心人群；经澄清后收敛为25—40岁。"
+    behavior_not_observed: "尚未进入真实用户与行为研究。"
+    space_misused: "不适用；尚未设计或运行空间。"
+    users_not_served: "12—24岁与41—60岁不进入第一阶段核心验证，但保留在长期范围。"
+    lesson_to_keep: "把原话、结构化理解与Agent补充建议分开，并用独立确认单完成闸门裁决。"
+    resulting_change: "G0通过；首张真实试运行工单完成，下一步进入第二步研究。"
+
   - id: "RETRO-001"
     assumption_disproved: ""
     behavior_not_observed: ""

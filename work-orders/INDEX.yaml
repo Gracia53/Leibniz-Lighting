@@ -4,8 +4,8 @@ last_updated: "2026-08-25"
 pilot:
   status: "in_progress"
   target_real_work_orders: 3
-  completed_real_work_orders: 0
-  active_real_work_orders: 1
+  completed_real_work_orders: 1
+  active_real_work_orders: 0
   basis: "DEC-20260825-004"
   automation_enabled: false
 
@@ -24,7 +24,7 @@ work_orders:
   - id: "WO-20260825-002"
     title: "整理原始愿景与G0问题澄清单"
     type: "formal"
-    status: "待决策"
+    status: "已交付"
     owner: "莱布尼茨"
     founder_gate: "G0"
     privacy: "public"
