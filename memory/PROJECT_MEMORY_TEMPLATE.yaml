@@ -4,8 +4,8 @@ project:
   agent_identity: "莱布尼茨｜2046 人类场域总设计 Agent"
   version: "0.3-pilot"
   current_stage: "第二步｜时代、用户与场地研究"
-  current_status: "已确认"
-  last_updated: "2026-08-25"
+  current_status: "待澄清"
+  last_updated: "2026-08-26"
 
 gates:
   G0:
@@ -23,6 +23,13 @@ gates:
 
 raw_materials:
   # 原文必须完整保存，不用 Agent 总结替代。
+  - id: "RAW-20260826-001"
+    date: "2026-08-26"
+    source_type: "founder_statement"
+    source: "work-orders/runs/WO-20260826-001/00_RAW_REQUEST.md"
+    verbatim: "早上好，让我们开始建立第二张真实试运行工单：`WO-20260825-003｜建立时代命题与用户研究任务书` 它只负责研究，不会提前进入人的成长模型、体验机制或空间设计。"
+    permission_or_access_note: "第二张真实试运行工单启动原话；允许进入公开GitHub项目"
+
   - id: "RAW-20260825-001"
     date: "2026-08-25"
     source_type: "founder_statement"
@@ -446,6 +453,34 @@ retrospectives:
     resulting_change: ""
 
 open_questions:
+  - id: "SCOPE-20260826-001"
+    question: "本轮研究以哪个地理与文化范围为主：中国整体、某个具体城市，还是国际比较？"
+    why_it_changes_direction: "决定用户证据、统计资料、社会语境、场地条件与案例的项目相关性。"
+    decision_gate: "none"
+    owner: "founder"
+    status: "open"
+
+  - id: "RQ-20260826-001"
+    question: "认知外包是否是一个有证据支持的时代问题，它通过哪些机制影响25—40岁人群？"
+    why_it_changes_direction: "检验G0真实问题是否成立，并防止把技术焦虑当作事实。"
+    decision_gate: "none"
+    owner: "莱布尼茨"
+    status: "open"
+
+  - id: "RQ-20260826-002"
+    question: "25—40岁核心用户内部有哪些不同生命状态、需要、阻力和可投入时间？"
+    why_it_changes_direction: "避免只用年龄建立过宽或精英化的人物画像。"
+    decision_gate: "none"
+    owner: "莱布尼茨"
+    status: "open"
+
+  - id: "RQ-20260826-003"
+    question: "真实空间、身体参与和深度关系相对线上体验的必要机制与失败条件是什么？"
+    why_it_changes_direction: "检验项目为什么必须以真实场域存在，同时寻找反例。"
+    decision_gate: "none"
+    owner: "莱布尼茨"
+    status: "open"
+
   - id: "G0-Q1"
     question: "面对2046年，项目首先要保护或培养哪一种不能轻易外包给AI的人类能力；人目前处于什么状态，为什么这种改变必须在真实空间中发生？"
     why_it_changes_direction: "决定项目回应的真实问题、人的改变方向及存在必要性。"

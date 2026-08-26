@@ -1,11 +1,11 @@
 schema_version: "0.3-pilot"
-last_updated: "2026-08-25"
+last_updated: "2026-08-26"
 
 pilot:
   status: "in_progress"
   target_real_work_orders: 3
   completed_real_work_orders: 1
-  active_real_work_orders: 0
+  active_real_work_orders: 1
   basis: "DEC-20260825-004"
   automation_enabled: false
 
@@ -31,3 +31,14 @@ work_orders:
     created_at: "2026-08-25"
     updated_at: "2026-08-25"
     path: "runs/WO-20260825-002/WORK_ORDER.md"
+
+  - id: "WO-20260826-001"
+    title: "建立时代命题与用户研究任务书"
+    type: "formal"
+    status: "待澄清"
+    owner: "莱布尼茨"
+    founder_gate: "none"
+    privacy: "public"
+    created_at: "2026-08-26"
+    updated_at: "2026-08-26"
+    path: "runs/WO-20260826-001/WORK_ORDER.md"
